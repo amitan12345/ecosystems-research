@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     libpq-dev \
     && docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd zip \
+    && docker-php-ext-enable opcache \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
