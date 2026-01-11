@@ -6,7 +6,8 @@
       "Bash(curl:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial Laravel project with Docker setup\n\n- Laravel 12 with PHP 8.3-FPM\n- Docker Compose with Nginx, MySQL, Redis\n- Configured for local development\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(timeout 10 bash:*)"
     ]
   }
 }
